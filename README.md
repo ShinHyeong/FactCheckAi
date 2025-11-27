@@ -18,14 +18,10 @@
 
 ## 💡 MVP Introduction : 이력서와 코드를 교차 검증하는 면접 솔루션
 
-> **"자소서에 쓴 그 기술, 코드로 증명할 수 있나요?"**
-> <br>단순 CS 암기 테스트를 넘어, 당신의 GitHub 코드와 자소서를 대조하여 진실성을 검증하는 **팩트 체크 AI 면접관**입니다.
-
 <br>
 
-<div align="center">
-<img width="60%" alt="MVP Service Preview" src="https://github.com/user-attachments/assets/d69fd439-2dfa-43ab-9419-71e6ca90e24a" />
-</div>
+> **"자소서에 쓴 그 기술, 코드로 증명할 수 있나요?"**
+> <br>단순 CS 암기 테스트를 넘어, 당신의 GitHub 코드와 자소서를 대조하여 진실성을 검증하는 **팩트 체크 AI 면접관**입니다.
 
 <br>
 
@@ -74,16 +70,35 @@ JD(직무 기술서)와 내 코드를 분석하여 면접관이 물어볼 법한
 ### Step 1. Input (원클릭 면접 준비)
 사용자가 **JD(채용 공고)**, **자소서**, **GitHub Repository 주소**를 입력합니다. 복잡한 설정 없이 버튼 하나로 분석이 시작됩니다.
 
+<div align="center">
+  <br>
+  <img src="https://github.com/user-attachments/assets/932ab547-2726-43c1-990f-1933bf79cb52" alt="MVP Service Preview Step1" width="65%">
+  <br><br>
+</div>
+
 ### Step 2. Analysis (진위 판독 및 질문 도출)
 AI가 코드와 자소서를 교차 검증하여 분석 결과를 내놓습니다.
 - **신뢰도 등급:** 구현 정도에 따른 4단계 진단 (`검증 완료` / `판독 불가` / `과장 의심` / `허위 사실`)
 - **의심 포인트:** "구현체 없음", "로직 불일치" 등 면접관의 의구심 시각화
 - **예상 질문:** 코드의 취약점을 조준한 맞춤형 질문 리스트업
 
+<div align="center">
+  <br>
+  <img src="https://github.com/user-attachments/assets/b29cd5bb-dbdf-4e0a-bb11-35f731afe8bf" alt="MVP Service Preview Step2" width="65%">
+  <br><br>
+</div>
+
 ### Step 3. Action (실전 디펜스 & 피드백)
 사용자가 질문을 선택하면 AI 면접관과의 실시간 문답이 진행됩니다.
 - **Deep Dive:** 2차, 3차 꼬리 질문을 통한 논리 검증
 - **Feedback:** 면접 방어율 점수 및 개선 가이드 제공
+
+<div align="center">
+  <br>
+  <img src="https://github.com/user-attachments/assets/f50667c4-284c-47d6-9d8c-e08b3a19f104" alt="MVP Service Preview Step3-1" width="42%">
+  &nbsp;&nbsp; <img src="https://github.com/user-attachments/assets/c6aa5e71-a8ff-42a2-8fb9-30c384e179f8" alt="MVP Service Preview Step3-2" width="42%">
+  <br>
+</div>
 
 <br>
 
